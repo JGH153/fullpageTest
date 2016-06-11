@@ -9,12 +9,12 @@ section.module:last-child {
   margin-bottom: 0;
 }
 section.module h2 {
-  margin-bottom: 40px;
+  /*margin-bottom: 40px; */
   font-family: "Roboto Slab", serif;
   font-size: 30px;
 }
 section.module p {
-  margin-bottom: 40px;
+ /* margin-bottom: 40px;*/
   font-size: 16px;
   font-weight: 300;
 }
@@ -28,6 +28,7 @@ section.module.contentHalf {
   padding: 40px 30px;
   float: left;
   width: 50%;
+  text-align: center;
 
 }
 section.module.parallax {
@@ -97,6 +98,28 @@ section.module.parallaxHalf-2 {
 }
 section.module.parallaxHalf-3 {
   background-image: url("images/bg8.jpg");
+}
+
+.videoContainer{
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.videoEl{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.supercontainer{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
 }
 
 
