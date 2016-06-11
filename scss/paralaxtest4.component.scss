@@ -1,0 +1,161 @@
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  /*margin-bottom: 40px; */
+  font-family: 'Josefin Sans',sans-serif;
+  font-size: 30px;
+}
+section.module p {
+ /* margin-bottom: 40px;*/
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.contentHalf {
+  padding: 40px 30px;
+  float: left;
+  width: 50%;
+  text-align: center;
+
+}
+section.module.parallax {
+  height: 100vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallaxHalf {
+  height: 50vh;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 50%;
+  float: left;
+}
+.clear{
+    clear: both;
+}
+.twoModuleContainer{
+    width: 100%;
+    overflow: hidden;
+}
+
+section.module.parallax h1, section.module.parallaxHalf h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 100vh;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section.module.parallaxHalf h1 {
+
+  line-height: 50vh;
+
+}
+
+.bgContainer1{
+    background-image: url("images/bg5.jpg");
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+
+section.module.parallax-1 {
+  background-image: url("images/bg0.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("images/bg7.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("images/bg2.jpg");
+}
+section.module.parallax-4 {
+  background-image: url("images/bg3.jpg");
+}
+section.module.parallax-5 {
+  background-image: url("images/bg4.jpg");
+}
+section.module.parallax-6 {
+  background-image: url("images/bg5.jpg");
+}
+
+section.module.parallaxHalf-1 {
+  background-image: url("images/bg0.jpg");
+}
+section.module.parallaxHalf-2 {
+  background-image: url("images/bg7.jpg");
+}
+section.module.parallaxHalf-3 {
+  background-image: url("images/bg8.jpg");
+}
+
+.videoContainer{
+    margin: 0 auto;
+    margin-bottom: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.videoEl{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.supercontainer{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+
+
+
+.staticImageSectionHalf{
+    height: 50vh;
+    width: 50%;
+    float: left;
+}
+.fullImg{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+}

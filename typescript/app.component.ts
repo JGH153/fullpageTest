@@ -8,6 +8,7 @@ import { QuizMasterComponent }  from './quiz-master.component';
 import { ParalaxtestComponent }  from './paralaxtest.component';
 import { Paralaxtest2Component }  from './paralaxtest2.component';
 import { Paralaxtest3Component }  from './paralaxtest3.component';
+import { Paralaxtest4Component }  from './paralaxtest4.component';
 import { VideobgComponent }  from './videobg.component';
 
 
@@ -16,7 +17,7 @@ import { VideobgComponent }  from './videobg.component';
 @Component({
 	selector: 'birdid-idclient-main',
 	template: `
-	  <videobg></videobg>
+	  <paralaxtest4></paralaxtest4>
 	`,
 	styleUrls: ['app/app.component.css'],
 	directives: [
@@ -24,6 +25,7 @@ import { VideobgComponent }  from './videobg.component';
 		ParalaxtestComponent,
 		Paralaxtest2Component,
 		Paralaxtest3Component,
+		Paralaxtest4Component,
 		VideobgComponent,
 		ROUTER_DIRECTIVES
 	],
